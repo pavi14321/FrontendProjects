@@ -129,7 +129,7 @@ body{
     gap: 20px;
     background: #303e4e;
     color: #fff;
-    font-size: 15px;
+    font-size: 13px;
     padding: 8px 20px;
 }.nav-bottom div {
     display: flex;
@@ -137,56 +137,151 @@ body{
     gap: 5px; 
     font-weight: 500;
 }
+.elctronics p{
+    justify-content: space-evenly;
+    margin-left: 650px;
+    font-size: 14px;
+
+}
 /* nav bottom ends */
 
-
-/* .header-slider {
-    
+/* hero section starts */
+.hero-section {
+    height: 300px;
     width: 100%;
-    height: 90vh;
-    overflow: hidden;
-
- }
-.header-slider ul {
-    
-    
-    overflow-y: hidden;
+    background-size: 100% 300px;
+    background-image: url(images/slider1.jpeg);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 }
-.header-slider img{
-    width: 100%;
-    height: 90vh;
-}
-.header-slider ul {
-align-items: center;
-justify-items: center;
-display: flex;
-}
-.images6 {
-   max-width: 100%;
-   height: 90vh;
-   align-items: center;
-   display: flex;
-   justify-content: flex-start;
-   overflow-y: hidden;
-   
-} */
-
-.header-slider {
-    width: 100%;
-    height: 100vh;
+.hero-msg {
+    width: 80%;
+    height: 30px;
+    color: black;
+    background-color: rgb(230, 228, 226);
     align-items: center;
-    justify-content: space-between;
-    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
     
 }
-.header-slider ul li {
-    width: 100%;
-    height: 100vh;
+.hero-msg a {
+    color: #007185;
 }
-.header-images {
+/* hero section ends */
+
+
+/* Shope section starts*/
+.shop-section {
+   
+    display: flex;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f9f9f9
+}
+.box {
+    /* border: 2px solid black; */
+    background-color: rgb(208, 217, 224);
+    height: 400px;
+    width: 23%;
+    padding: 10px;
+    justify-content: space-between;
+    margin-top: 15px;
+   
+    
+}
+.box-images1 {
     width: 100%;
-    height: 100vh;
-    object-fit: cover; /* Optional: adjusts image fit */
-    display: block;
+    height: 300px;
+    display: flex;
+    background-image:url(images/fridge.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+   
+
+}
+.box-images2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/81I4nkIvhfL._SY450_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+
 }
 
+.box-images4 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/51zPqa+ZnTL.AC_SX250.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+}
+.box-images3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+}
+.box-images5 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/81pCmFN8gaL._SX522_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+}
+.box-images6{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/81R6YbNKOzL._SY500_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+}
+.box-images7{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/61F5SXdi9jL._SY355_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+}
+.box-images8    {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    background-image:url(https://m.media-amazon.com/images/I/71oLyiFeseL._SY355_.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+.box-content {
+    margin-left: 10px;
+    margin-right: 10px;
+   
+    align-items: center;
+    justify-content: center;
+    
+}
+.box-content p {
+    margin-top: 10px;
+    text-decoration: underline none;
+    color: black;
+}
+.box-content h2 {
+    margin-left: 10px;
+}
